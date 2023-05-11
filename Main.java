@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Select what formulae you wish to calculate on");
+        System.out.println("pick from the few below");
         System.out.println("For Kinetic Energy, press 1");
         System.out.println("For Potential Energy, press 2");
         System.out.println("For Momentum, press 3");
