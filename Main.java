@@ -60,6 +60,20 @@ public class Main {
                 double distance = sc.nextDouble();
                 System.out.println(calculator.velocity(displacement,time));
                 break;
+             case 9:
+                System.out.println("Input speed = ");
+                double speed = sc.nextDouble();
+                System.out.println("Input time = ");
+                double time = sc.nextDouble();
+                System.out.println(calculator.distance(speed,time));
+                break;  
+              case 10:
+                System.out.println("Input quantity of charge = ");
+                double quantity of charge = sc.nextDouble();
+                System.out.println("Input voltage = ");
+                double voltage = sc.nextDouble();
+                System.out.println(calculator.capacitane(quantity of charge,voltage));
+                break;     
         }
 
     }
