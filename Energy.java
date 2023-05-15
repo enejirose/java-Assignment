@@ -20,4 +20,11 @@ public class Energy extends Physics {
     public double workDone(double force, double distance){
         return force * distance;
     }
+    
+    public double distance(double speed, double time){
+        return speed * time;
+    }
+    
+    public double capacitance(double quantity of charge, double voltage){
+        return quantity of charge / voltage;
 }
