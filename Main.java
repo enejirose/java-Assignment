@@ -53,6 +53,20 @@ public class Main {
                 double distance = sc.nextDouble();
                 System.out.println(calculator.workDone(force,distance));
                 break;
+            case 6:
+                System.out.println("Input mass = ");
+                double force = sc.nextDouble();
+                System.out.println("Input volume = ");
+                double distance = sc.nextDouble();
+                System.out.println(calculator.density(mass,volume));
+                break
+            case 7:
+                System.out.println("Input velocity = ");
+                double force = sc.nextDouble();
+                System.out.println("Input time = ");
+                double distance = sc.nextDouble();
+                System.out.println(calculator.Acceleration(velocity,time));
+                break;
              case 8:
                 System.out.println("Input displacement = ");
                 double force = sc.nextDouble();
