@@ -20,4 +20,8 @@ public class Energy extends Physics {
     public double workDone(double force, double distance){
         return force * distance;
     }
+    
+    public double Density(double mass, double volume){
+        return mass / volume;
+    }
 }
